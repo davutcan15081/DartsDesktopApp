@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
 
 <img src="assets/DartsDesktop.png" alt="DartsDesktop" width="96" height="96">
 
@@ -62,6 +62,17 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 
 ## Kurulum
 
+### Kurulum Paketlerini İndir
+
+| Platform | Paket | Tür | Doğrudan İndirme |
+|---|---|---|:---:|
+| 🪟 **Windows** | `DartsDesktop.App-win-Setup.exe` | Kurulum Sihirbazı (Önerilen) | [⬇️ **İndir (72.7 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Setup.exe) |
+| 🪟 **Windows** | `DartsDesktop.App-win-Portable.zip` | Kurulumsuz / Taşınabilir ZIP | [⬇️ **İndir (65.4 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Portable.zip) |
+| 🍎 **macOS** | `DartsDesktop.App-osx-arm64.zip` | Apple Silicon (M1, M2, M3, M4 …) | [⬇️ **İndir (58.3 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-arm64.zip) |
+| 🍎 **macOS** | `DartsDesktop.App-osx-x64.zip` | Intel işlemcili Mac | [⬇️ **İndir (60.7 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-x64.zip) |
+
+---
+
 ### Sistem gereksinimleri
 
 | | Windows | macOS |
@@ -74,7 +85,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 
 ### 🪟 Windows
 
-1. [**`DartsDesktop.App-win-Setup.exe`**](releases/DartsDesktop.App-win-Setup.exe) (Kurulum Sihirbazı) veya [**`DartsDesktop.App-win-Portable.zip`**](releases/DartsDesktop.App-win-Portable.zip) (Taşınabilir Sürüm) dosyasını indirin.
+1. [**`DartsDesktop.App-win-Setup.exe`**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Setup.exe) (Kurulum Sihirbazı) veya [**`DartsDesktop.App-win-Portable.zip`**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Portable.zip) (Taşınabilir Sürüm) dosyasını indirin.
 2. Çift tıklayın. Yönetici izni **gerekmez**; kurulum yalnızca sizin kullanıcınız için yapılır ve birkaç saniye sürer.
 3. *"Windows bilgisayarınızı korudu"* uyarısı çıkarsa **Ek bilgi → Yine de çalıştır** seçin.
    (Kod imzalama sertifikası eklenince bu uyarı kalkar.)
@@ -84,7 +95,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 |---|---|
 | Program klasörü | `%LOCALAPPDATA%\DartsDesktop.App` |
 | Verileriniz | `%LOCALAPPDATA%\DartsDesktop` (veritabanları, yedekler, ayarlar, günlükler) |
-| Kurulumsuz kullanım | [`DartsDesktop.App-win-Portable.zip`](releases/DartsDesktop.App-win-Portable.zip) dosyasını bir klasöre (ör. USB belleğe) açıp `DartsDesktop.exe`'yi çalıştırın |
+| Kurulumsuz kullanım | [`DartsDesktop.App-win-Portable.zip`](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Portable.zip) dosyasını bir klasöre (ör. USB belleğe) açıp `DartsDesktop.exe`'yi çalıştırın |
 | Güncelleme | **Ayarlar → Güncellemeler →** güncelleme adresini bir kez girin → **Denetle → Kur ve yeniden başlat** |
 | Kaldırma | **Ayarlar → Uygulamalar → DartsDesktop → Kaldır** |
 
@@ -93,8 +104,8 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 ### 🍎 macOS
 
 1. Mac'inize uygun paketi indirin:
-   - Apple Silicon (M1, M2, M3, M4 …): [**`DartsDesktop.App-osx-arm64.zip`**](releases/DartsDesktop.App-osx-arm64.zip)
-   - Intel işlemcili Mac: [**`DartsDesktop.App-osx-x64.zip`**](releases/DartsDesktop.App-osx-x64.zip)
+   - Apple Silicon (M1, M2, M3, M4 …): [**`DartsDesktop.App-osx-arm64.zip`**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-arm64.zip)
+   - Intel işlemcili Mac: [**`DartsDesktop.App-osx-x64.zip`**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-x64.zip)
 
    (Hangisi olduğunu öğrenmek için:  → **Bu Mac Hakkında** → *Yonga* veya *İşlemci* satırı.)
 2. `.pkg` dosyasına çift tıklayın ve kurulum adımlarını izleyin.
