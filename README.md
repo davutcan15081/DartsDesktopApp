@@ -74,7 +74,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 
 ### 🪟 Windows
 
-1. **`DartsDesktop.App-win-Setup.exe`** dosyasını indirin.
+1. [**`DartsDesktop.App-win-Setup.exe`**](releases/DartsDesktop.App-win-Setup.exe) (Kurulum Sihirbazı) veya [**`DartsDesktop.App-win-Portable.zip`**](releases/DartsDesktop.App-win-Portable.zip) (Taşınabilir Sürüm) dosyasını indirin.
 2. Çift tıklayın. Yönetici izni **gerekmez**; kurulum yalnızca sizin kullanıcınız için yapılır ve birkaç saniye sürer.
 3. *"Windows bilgisayarınızı korudu"* uyarısı çıkarsa **Ek bilgi → Yine de çalıştır** seçin.
    (Kod imzalama sertifikası eklenince bu uyarı kalkar.)
@@ -84,7 +84,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 |---|---|
 | Program klasörü | `%LOCALAPPDATA%\DartsDesktop.App` |
 | Verileriniz | `%LOCALAPPDATA%\DartsDesktop` (veritabanları, yedekler, ayarlar, günlükler) |
-| Kurulumsuz kullanım | `DartsDesktop.App-win-Portable.zip` dosyasını bir klasöre (ör. USB belleğe) açıp `DartsDesktop.exe`'yi çalıştırın |
+| Kurulumsuz kullanım | [`DartsDesktop.App-win-Portable.zip`](releases/DartsDesktop.App-win-Portable.zip) dosyasını bir klasöre (ör. USB belleğe) açıp `DartsDesktop.exe`'yi çalıştırın |
 | Güncelleme | **Ayarlar → Güncellemeler →** güncelleme adresini bir kez girin → **Denetle → Kur ve yeniden başlat** |
 | Kaldırma | **Ayarlar → Uygulamalar → DartsDesktop → Kaldır** |
 
@@ -93,10 +93,10 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 ### 🍎 macOS
 
 1. Mac'inize uygun paketi indirin:
-   - Apple Silicon (M1, M2, M3, M4 …): **`osx-arm64`** paketi
-   - Intel işlemcili Mac: **`osx-x64`** paketi
+   - Apple Silicon (M1, M2, M3, M4 …): [**`DartsDesktop.App-osx-arm64.zip`**](releases/DartsDesktop.App-osx-arm64.zip)
+   - Intel işlemcili Mac: [**`DartsDesktop.App-osx-x64.zip`**](releases/DartsDesktop.App-osx-x64.zip)
 
-   (Hangisi olduğunu öğrenmek için:  → **Bu Mac Hakkında** → *Yonga* veya *İşlemci* satırı.)
+   (Hangisi olduğunu öğrenmek için:  → **Bu Mac Hakkında** → *Yonga* veya *İşlemci* satırı.)
 2. `.pkg` dosyasına çift tıklayın ve kurulum adımlarını izleyin.
 3. *"Açılamıyor, geliştirici doğrulanamadı"* uyarısı çıkarsa:
    **Sistem Ayarları → Gizlilik ve Güvenlik →** sayfanın altındaki **Yine de Aç** düğmesine basın ve onaylayın.
