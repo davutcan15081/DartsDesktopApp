@@ -15,7 +15,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 ![Diller](https://img.shields.io/badge/arayüz-32%20dil-2EA44F)
 ![Testler](https://img.shields.io/badge/testler-1200%2B-2EA44F)
 
-[Kurulum](#kurulum) · [İlk açılış ve lisans](#ilk-açılış-ve-lisans) · [Kullanım kılavuzu](#kullanım-kılavuzu) · [Kısayollar](#klavye-kısayolları) · [Sık sorulan sorular](#sık-sorulan-sorular) · [Lisans](#lisans)
+[Kurulum](#kurulum) · [İlk açılış](#ilk-açılış) · [Kullanım kılavuzu](#kullanım-kılavuzu) · [Kısayollar](#klavye-kısayolları) · [Sık sorulan sorular](#sık-sorulan-sorular) · [Telif ve açık kaynak](#telif-ve-açık-kaynak)
 
 <br>
 
@@ -52,10 +52,6 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
     <td width="50%"><img src="docs/images/statistics.png" alt="İstatistikler"><p align="center"><sub><b>Oyuncu kariyeri</b> — ortalama grafiği ve skor aralıkları</sub></p></td>
     <td width="50%"><img src="docs/images/matches.png" alt="Maçlar"><p align="center"><sub><b>Maçlar</b> — devam eden maçlar ve maç geçmişi</sub></p></td>
   </tr>
-  <tr>
-    <td width="50%"><img src="docs/images/settings.png" alt="Ayarlar"><p align="center"><sub><b>Ayarlar</b> — lisans, tema, dil, sesler</sub></p></td>
-    <td width="50%"><img src="docs/images/light-theme.png" alt="Açık tema"><p align="center"><sub><b>Açık tema</b></sub></p></td>
-  </tr>
 </table>
 
 ---
@@ -80,7 +76,7 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 | İşletim sistemi | Windows 10 veya 11 (64 bit) | Güncel macOS, Apple Silicon (M serisi) veya Intel |
 | Ek yazılım | Gerekmez (.NET uygulamanın içinde) | Gerekmez (.NET uygulamanın içinde) |
 | Disk | ~250 MB | ~250 MB |
-| İnternet | Deneme / lisans için ilk açılışta ve en az 14 günde bir | Aynı |
+| İnternet | İsteğe bağlı; canlı skor ve güncellemeler için | İsteğe bağlı; canlı skor ve güncellemeler için |
 | Önerilen | 1280×720 veya üzeri ekran; skor için ikinci monitör isteğe bağlı | Aynı |
 
 ### 🪟 Windows
@@ -124,18 +120,9 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 
 ---
 
-## İlk açılış ve lisans
+## İlk açılış
 
-DartsDesktop **bir bilgisayar için yıllık abonelikle** kullanılır ve **30 gün ücretsiz denenebilir**.
-
-1. **İlk açılış:** İnternet bağlıysa 30 günlük deneme kendiliğinden başlar. Araç çubuğunda *"Deneme: 30 gün kaldı"* görünür. Varsayılan veritabanı (`Darts`) otomatik oluşturulur.
-2. **Lisans anahtarı girme:** **Ayarlar → Lisans →** anahtarı (`DD-XXXXX-XXXXX-XXXXX-XXXXX`) yapıştırın → **Etkinleştir**.
-   Durum satırında *"… adına … tarihine kadar lisanslı"* yazar.
-3. **İnternetsiz kullanım:** Lisans 14 güne kadar internetsiz çalışır; uygulama internet buldukça kendini arka planda yeniler. Uzun süre çevrimdışı kaldıysanız **Ayarlar → Lisans → Şimdi denetle**.
-4. **Bilgisayar değiştirme:** Eski bilgisayarda **Ayarlar → Lisans → Bu bilgisayardan kaldır**, sonra yeni bilgisayarda anahtarı girin. Eski bilgisayar bozulduysa satıcıdan lisansı serbest bırakmasını isteyin.
-5. **Abonelik yenileme:** Yenilendiğinde yeni bitiş tarihi bir sonraki denetimde kendiliğinden gelir; anahtarı yeniden girmeniz gerekmez.
-
-> **Lisans bitse bile verileriniz kilitlenmez.** Oyuncular, maç geçmişi, istatistikler, raporlar ve dışa aktarma her zaman açıktır; yalnızca yeni maç, turnuva ve lig başlatılamaz. Başlamış bir maç sonuna kadar oynanabilir.
+DartsDesktop'ı açtığınızda varsayılan veritabanı (`Darts`) otomatik oluşturulur. Başka bir veritabanı oluşturmak veya açmak için **Ayarlar → Veritabanı** bölümünü kullanın. Uygulamanın temel özellikleri internet bağlantısı olmadan da kullanılabilir. Deneme ve aktivasyon lisansı bu sürümde etkin değildir.
 
 ---
 
@@ -247,13 +234,13 @@ Windows'ta `%LOCALAPPDATA%\DartsDesktop`, macOS'ta `~/Library/Application Suppor
 <details>
 <summary><b>Başka bir bilgisayara nasıl geçerim?</b></summary>
 
-Eski bilgisayarda **Ayarlar → Veritabanı → ZIP olarak dışa aktar…**, ardından **Ayarlar → Lisans → Bu bilgisayardan kaldır**. Yeni bilgisayarda DartsDesktop'ı kurun, ZIP'i açın ve lisans anahtarınızı girin.
+Eski bilgisayarda **Ayarlar → Veritabanı → ZIP olarak dışa aktar…** ile veritabanını taşıyın. Yeni bilgisayarda DartsDesktop'ı kurup ZIP'i içe aktarın.
 </details>
 
 <details>
 <summary><b>İnternet olmadan kullanabilir miyim?</b></summary>
 
-Evet. İnternet yalnızca denemeyi başlatmak, lisansı etkinleştirmek ve en az 14 günde bir lisansı yenilemek için gerekir. Maçlar, turnuvalar ve istatistikler tamamen çevrimdışı çalışır.
+Evet. Maçlar, turnuvalar ve istatistikler çevrimdışı çalışır. Canlı skor yayınlama ve uygulama güncellemeleri için internet gerekir.
 </details>
 
 <details>
@@ -264,7 +251,7 @@ Dart hakemliğinde gelenek İngilizce anonstur. Anonsçu bilgisayarın yüklü �
 
 ---
 
-## Lisans
+## Telif ve açık kaynak
 
 DartsDesktop ticari bir yazılımdır. © 2026 DartsDesktop. Tüm hakları saklıdır.
 Kullanılan açık kaynak bileşenler ve lisansları: [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
