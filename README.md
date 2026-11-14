@@ -40,6 +40,9 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 | 🌍 **32 dil** | Türkçe, İngilizce ve 30 Avrupa dili; çalışırken anında geçiş. Koyu, açık, yüksek kontrast ve kara tahta temaları. |
 | 💾 **Güvenli veri** | Her kulüp / etkinlik ayrı bir veritabanı dosyası. Otomatik günlük yedek, şema güncellemesinden önce yedek, bütünlük kontrolü, silinen kayıtların geri getirilmesi. |
 | 📡 **Canlı skor (isteğe bağlı)** | Turnuvaları ve maçları web sayfasında anlık yayınlama; internet kesilse bile sıraya alınıp sonra gönderilir. |
+| ✉️ **Paylaşım** | Veritabanını ve raporları e-postayla gönderme (SMTP), FTP sunucusuna ve canlı skor sunucusuna dosya yükleme. Parolalar bu bilgisayarda şifreli saklanır. |
+| 🗄️ **SQL Server** | Veritabanını dosya yerine SQL Server'da (veya LocalDB'de) tutma; mevcut veritabanını tek adımda aktarma. Yedekler yine `.dartsdb` dosyası. |
+| 🏴 **Lig türleri ve bayraklar** | County ve Six Nations istatistikleri, ülke bayrakları (skor tabelasında oyuncunun yanında), lig şablonundan hazır veritabanı oluşturma. |
 
 ## Ekran görüntüleri
 
@@ -62,10 +65,10 @@ Oyuncular · Takımlar · 01 ve Cricket skor motoru · Turnuvalar · Ligler · �
 
 | Platform | Paket | Tür | Doğrudan İndirme |
 |---|---|---|:---:|
-| 🪟 **Windows** | `DartsDesktop.App-win-Setup.exe` | Kurulum Sihirbazı (Önerilen) | [⬇️ **İndir (72.7 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Setup.exe) |
-| 🪟 **Windows** | `DartsDesktop.App-win-Portable.zip` | Kurulumsuz / Taşınabilir ZIP | [⬇️ **İndir (65.4 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Portable.zip) |
-| 🍎 **macOS** | `DartsDesktop.App-osx-arm64.zip` | Apple Silicon (M1, M2, M3, M4 …) | [⬇️ **İndir (58.3 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-arm64.zip) |
-| 🍎 **macOS** | `DartsDesktop.App-osx-x64.zip` | Intel işlemcili Mac | [⬇️ **İndir (60.7 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-x64.zip) |
+| 🪟 **Windows** | `DartsDesktop.App-win-Setup.exe` | Kurulum Sihirbazı (Önerilen) | [⬇️ **İndir (81.0 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Setup.exe) |
+| 🪟 **Windows** | `DartsDesktop.App-win-Portable.zip` | Kurulumsuz / Taşınabilir ZIP | [⬇️ **İndir (73.7 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-win-Portable.zip) |
+| 🍎 **macOS** | `DartsDesktop.App-osx-arm64.zip` | Apple Silicon (M1, M2, M3, M4 …) | [⬇️ **İndir (66.5 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-arm64.zip) |
+| 🍎 **macOS** | `DartsDesktop.App-osx-x64.zip` | Intel işlemcili Mac | [⬇️ **İndir (69.2 MB)**](https://github.com/davutcan15081/DartsDesktopApp/raw/main/releases/DartsDesktop.App-osx-x64.zip) |
 
 ---
 
